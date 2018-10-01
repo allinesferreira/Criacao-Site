@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+article#noticia-principal{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+section#corpo-full{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+section#conteudo{
+    width: 1000px;
+    margin: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+iframe#frame-spec{
+    width: 430px;
+    height: 280px;
+    border: none;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+iframe#frame-spec::-webkit-scrollbar{
+    display: none;
+}
